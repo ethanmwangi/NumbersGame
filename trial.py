@@ -1,5 +1,5 @@
 import random
-
+# trial.py - A simple number guessing game with difficulty levels and a leaderboard
 def get_difficulty():
     print("Welcome to the Number Guessing Game!")
     print("Choose Difficulty Level:")
