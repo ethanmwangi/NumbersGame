@@ -77,3 +77,5 @@ play_game()
 view = input("\nWould you like to view the leaderboard? (yes/no): ").lower()
 if view == "yes":
     show_leaderboard()
+
+    # Exit option
