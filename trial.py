@@ -65,7 +65,7 @@ def save_score(score):
 def show_leaderboard():
     print("\n Leaderboard:")
     try:
-        with open("highscores.txt", "r") as file:
+        with open("scores.txt", "r") as file:
             scores = file.readlines()
             for line in scores:
                 print(line.strip())
