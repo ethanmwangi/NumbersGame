@@ -21,7 +21,7 @@ def get_difficulty():
 
         attempts += 1
 
-
+# Main game function
 def play_game():
     guesses_allowed = get_difficulty()
     secret_number = random.randint(1, 100)
