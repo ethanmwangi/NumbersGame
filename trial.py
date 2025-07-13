@@ -1,11 +1,11 @@
 import random
 # trial.py - A simple number guessing game with difficulty levels and a leaderboard
 def get_difficulty():
-    print("Welcome to the Number Guessing Game!")
-    print("Choose Difficulty Level:")
-    print("1. Easy (10 guesses)")
-    print("2. Medium (7 guesses)")
-    print("3. Hard (5 guesses)")
+    print("Hey lets play a Number Guessing Game!")
+    print("Choose your Difficulty Level:")
+    print("1. Easy/Rahisi (10 guesses)")
+    print("2. Medium/Ngumu kidogo (7 guesses)")
+    print("3. Hard/ Ngumu zaidi (5 guesses)")
       
     while True:
         choice = input("Enter 1, 2 or 3: ")
